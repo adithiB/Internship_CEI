@@ -12,7 +12,7 @@ public class DbConnection {
 		System.out.println("Welcome!");
 		String dbUrl = "jdbc:mysql://localhost:3306/dev_db";
 		String userName = "dev_user";
-		String password = "Adipras789!";
+		String password = "*******";
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection(dbUrl, userName, password);
